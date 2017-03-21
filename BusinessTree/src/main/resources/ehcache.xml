@@ -1,0 +1,7 @@
+<ehcache>
+	<cache name = "employee" 
+		maxEntriesLocalHeap="200"
+		eternal="false">
+		<persistence strategy="localTempSwap" />
+	</cache>
+</ehcache>
